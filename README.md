@@ -12,6 +12,5 @@ pkg install git
 
 git clone https://github.com/submateam/waklabu
 
-cd gjk
-
-php shot.php
+cd waklabu
+php waklabu.php
