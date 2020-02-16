@@ -13,4 +13,6 @@ pkg install git
 git clone https://github.com/submateam/waklabu
 
 cd waklabu
+
+
 php waklabu.php
