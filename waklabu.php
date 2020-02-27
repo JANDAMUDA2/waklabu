@@ -86,7 +86,7 @@ echo color("green"," =================================== \n");
 						echo "\n".color("red","-] Message: ".$messageboba10);
 					}
 					goride:
-					echo "\n".color("yellow","!] Claim Voc AYOCOBAGOJEK");
+					echo "\n".color("yellow","!] Claim Voc COBAGORIDE");
 					echo "\n".color("yellow","!] Please wait...");
 					for($a=1;$a<=3;$a++){
 						echo color("yellow",".");
@@ -97,7 +97,7 @@ echo color("green"," =================================== \n");
 					$message1 = fetch_value($goride,'"message":"','"');
 					echo "\n".color("green","+] Message: ".$message1);
 							
-					echo "\n".color("yellow","!] Claim Voc COBAINGOJEK");
+					echo "\n".color("yellow","!] Claim Voc COBAGOCAR");
 					echo "\n".color("yellow","!] Please wait...");
 					for($a=1;$a<=3;$a++){
 						echo color("yellow",".");
@@ -158,11 +158,11 @@ echo color("green"," =================================== \n");
 			}else{
 				echo color("red","-] The code you entered is incorrect");
 				echo color("green", "\n =================================== \n\n");
-				echo color("yellow","!] Please input again \n");
+				echo color("yellow","!] masukan ulang kode yang benar lah \n");
 				goto otp;
             }
 		}else{
-			echo color("red","-] This number already registered");
+			echo color("red","-] Nomor yang kau masukan sudah terdaftar paok");
 			echo color("green", "\n =================================== \n\n");
 			echo color("yellow","!] Please register again using other number \n");
 			goto ulang;
