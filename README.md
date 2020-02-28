@@ -12,7 +12,7 @@ pkg install git
 
 git clone https://github.com/submateam/waklabu
 
-cd andre
+cd waklabu
 
 
 php andre.php
