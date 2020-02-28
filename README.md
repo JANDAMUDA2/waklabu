@@ -10,9 +10,9 @@ pkg install curl
 
 pkg install git
 
-git clone https://github.com/submateam/waklabu
+git clone https://github.com/submateam/andre
 
-cd waklabu
+cd andre
 
 
-php waklabu.php
+php andre.php
