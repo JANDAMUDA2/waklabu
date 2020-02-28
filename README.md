@@ -10,7 +10,7 @@ pkg install curl
 
 pkg install git
 
-git clone https://github.com/submateam/andre
+git clone https://github.com/submateam/waklabu
 
 cd andre
 
