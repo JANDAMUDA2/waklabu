@@ -108,7 +108,15 @@ echo color("green"," =================================== \n");
 					$message2 = fetch_value($goride1,'"message":"','"');
 					echo "\n".color("green","+] Message: ".$message2);
 					sleep(3);
-					
+                                        }
+                                        $h=fopen("newgojek.txt","a");
+		                        fwrite($h,json_encode(array('token' => $verif, 'voc' => 'gofood gak ada'))."\n");
+		                        fclose($h); 
+                                        echo "\e[!] Trying to redeem Reff :G-42LPGWC !\n";
+                                        sleep(3);
+
+                                        $claim = reff($verif);
+
 					$cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
 					$total = fetch_value($cekvoucher,'"total_vouchers":',',');
 					$voucher3 = getStr1('"title":"','",',$cekvoucher,"3");
