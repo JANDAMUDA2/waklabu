@@ -11,8 +11,8 @@ pkg install curl
 pkg install git
 
 git clone https://github.com/submateam/waklabu
-
+ls
 cd waklabu
-
-
-php andre.php
+ls
+gojek.php token.php
+php gojek.php
